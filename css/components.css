@@ -1,0 +1,222 @@
+/*Heading 1*/
+
+*{
+	margin:auto;
+	padding:auto;
+}
+
+.top div{
+	width:1200px;
+	color:#fff;
+	background-color:#2FA5EB;
+	font-family:Century Gothic;
+	padding:10px;
+	text-align:right;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 1px;
+}
+
+/*Logo*/
+
+.logo{
+	width:100%;
+	background-color: #00588a;
+	border-bottom:2px solid #f0f0f0;
+	text-align:center;
+}
+.logo div{
+	width:1000px;
+	background-color:;
+	font-family:Century Gothic;
+	padding:10px;
+	text-align:left;
+}
+
+/*Navigation*/
+
+ul.topnav {
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #007dbe;
+  font-family:Century Gothic;
+  font-weight: 900;
+}
+
+
+li {
+  float: left;
+  font-size:17px;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #54c6d3;
+}
+
+li a.active {
+  color: white;
+  background-color: #00588a;
+}
+
+/*Banner*/
+
+.middle{
+	width:100%;
+      display:flex;
+}
+.middle div{
+	width:1200px;
+	height:400px;
+	font-family:Century Gothic;
+}
+.middle div p{
+	width:1000px;
+	font-weight:bold;
+	height:300px;
+	color:#fff;
+	opacity:0.2;
+	font-size:50px;
+	background-color:#000;
+}
+
+/*Content*/
+
+
+.bottom{
+	width:100%;
+	background-color:light grey
+	font-size:25px;
+	font-family:Century Gothic;
+	color:#000000;
+
+}
+.bottom div{
+	width:1200px;
+	color:#fff;
+	background-color:;
+	font-family:Century Gothic;
+	text-align:right;
+}
+.bottom div table{
+	padding-top:30px;
+	width:1100px;
+	text-align:justify;
+	color:gray;
+	font-size:20px;
+}
+
+.bottom_logo{
+	height:8px;
+	width:2%;
+      display:flex;
+}
+
+
+.bottom_up{
+	width:100%;
+	background-color:;
+	border-bottom:2px solid #f0f0f0;
+}
+.bottom_up div{
+	padding-top:20px;
+	width:1200px;
+	text-align:center;
+	background-color:;
+	font-family:forte;
+	font-size:30px;
+	padding-bottom:20px;
+}
+.bottom_up div table{
+	padding-top:30px;
+	font-size:30px;
+	width:1100px;
+	text-align:center;
+	background-color:;
+	font-family:Century Gothic;
+	
+}
+
+/*Contact us form*/
+
+input[type="text"]{
+	padding:12px;
+	width:250px;
+}
+select{
+	padding:12px;
+	width:250px;
+}
+textarea{
+	padding:50px;
+	width:550px;
+}
+button{
+	width:550px;
+	padding:10px;
+	color:#fff;
+	font-size:20px;
+	background-color:#2FA5EB;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #2FA5EB;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+input[type=submit]:hover {
+  background-color: #007dbe;
+}
+
+.container_fluid {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  font-size:20px;
+}
+
+
+/*footer*/
+.footer div{
+	width:1000px;
+	color:#fff;
+	font-family:Century Gothic;
+	padding:10px;
+      text-align:center;
+      font-size:20px;
+}
